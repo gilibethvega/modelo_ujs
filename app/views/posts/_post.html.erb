@@ -1,6 +1,6 @@
  <tr>
     <td><%= post.title %></td>
-    <td><%= post.content %></td>
+    <td><%= post.description %></td>
     <td><%= link_to "Show", show_post_path(post)%> </td>
     <td><%= link_to "Edit", post, data: { confirm: "Are you sure to edit?" } %></td>
     <td><%= link_to "Destroy", post, method: :delete, data: { confirm: "Are you sure?" } %></td>
